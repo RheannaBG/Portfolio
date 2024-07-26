@@ -451,14 +451,14 @@ animation-delay: .1s;
 .preview-box, .preview-box2 {
     width: 80%;
     height: 400px;
-    margin: 90px auto; /* Center align and apply top-bottom margin */
+    margin: 90px auto; 
     border: 10px solid rgb(191, 13, 13);
     overflow: hidden;
     position: relative;
 }
 
 .preview-box2 {
-    border: 0; /* Remove border for the second preview box */
+    border: 0; 
 }
 
 .preview-box iframe, .preview-box2 iframe {
@@ -468,7 +468,7 @@ animation-delay: .1s;
 }
 
 .link-container, .link-container2 {
-    text-align: center; /* Center align text */
+    text-align: center; 
     margin-top: 20px;
 }
 
