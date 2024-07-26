@@ -12,12 +12,12 @@ body{
 
 .header{
     font-size: 30px;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    background: transparent;
+    padding: 10px 5%;
+    background:#dd1350;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,9 +33,15 @@ body{
     animation: slideRight 1s ease forwards;
 }
 
+.navbar{
+    position: sticky;
+    top: 0;
+    right: 10%;
+}
+
 .navbar a {
     display: inline-block;
-    font-size: 25px;
+    font-size: 23px;
     color: rgb(35, 41, 41);
     text-decoration: underline;
     font-weight: 500;
@@ -48,7 +54,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active  {
-    color:rgb(243, 8, 63);
+    color:#FFACAC;
 }
 
 .playwrite {
@@ -79,7 +85,7 @@ body{
     max-width: 300px;
 }
 .home-content h3 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -88,7 +94,7 @@ body{
 
 .home-content h3 span{
     color: rgb(243, 8, 63);
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .home-content h3:nth-child(2){
@@ -98,7 +104,7 @@ body{
 }
 
 .home-content h1{
-font-size: 36px;
+font-size: 40px;
 font-weight: 700;
 margin: -3px 0;
 animation: slideRight 1s ease forwards;
@@ -108,14 +114,17 @@ animation-delay: .1s;
 .home-content p{
     margin-top: 40px;
     margin-bottom: 40px;
-    font-size: 20px;
+    font-size: 25px;
     animation: slideLeft 1s ease forwards;
     animation-delay: .1s;
 }
 .home-img img{
     width: 350px;
-    height: 250px;
-    margin-right: -20px;
+    height: 450px;
+    box-shadow: 5px 5px 5px #E45A84;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: -90px;
     animation: zoomIn 5s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 0s 2s;
 }
@@ -124,12 +133,12 @@ animation-delay: .1s;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: transparent;
     border: 2px solid rgb(243, 8, 63);
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(243, 8, 63);
     text-decoration: none;
     margin: 30px 15px 30px 0;
@@ -459,4 +468,34 @@ animation-delay: .1s;
     text-decoration: underline;
     color: blue;
     font-size: 18px;
+}
+
+.preview-box2 {
+    width: 80%;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.preview-box2 iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.link-container2 {
+    text-align: top;
+    margin-top: 20px;
+}
+.link-container2 a {
+    text-decoration: underline;
+    color: blue;
+    font-size: 18px;
+}
+
+.Projects{
+    font-size: 30px;
+    margin: 10%;
+    font-weight: 400;
+
 }
